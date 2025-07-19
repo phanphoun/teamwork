@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teamwork</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .header {
+            background-color: #f4f4f4;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .main-content h1 {
+            color: #333;
+        }
+        .main-content p {
+            font-size: 1.2em;
+        }
+        .main-content form {
+            margin-top: 20px;
+        }
+        .main-content form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .main-content form input,
+        .main-content form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .main-content form button {
+            padding: 10px 15px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .main-content form button:hover {
+            background-color: #4cae4c;
+        }
+        .location, .contact-info {
+            margin-top: 20px;
+        }
+        .location h2, .contact-info h2 {
+            color: #333;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px 0;
+            background-color: #f4f4f4;
+        }
+        .social-link a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        .social-link a:hover {
+            text-decoration: underline;
+        }
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <h1>Teamwork</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-content">
+            <h1>Contact Us</h1>
+            <p>If you have any questions, feel free to reach out!</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+            <div class="location">
+                <h2>Our Location</h2>
+                <p>123 Teamwork Lane, Collaboration City, CO 12345</p>
+            </div>
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>Email: <a href="mailto:">phanphoun@gmail.com</a>
+        </div>
+        <div class="footer">
+            <p>&copy; 2023 Teamwork. All rights reserved.</p>
+            <div class="social-link">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
